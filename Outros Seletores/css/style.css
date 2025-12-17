@@ -1,0 +1,33 @@
+[required] {
+  background: red;
+}
+[href="#contato"] {
+  border: 2px solid yellow;
+}
+
+/* somente href^="#" que tiver somente no inicio # */
+[href^="#"] {
+  background: cornflowerblue;
+}
+
+/* somente os que termina com #  */
+
+[href$="#"] {
+  background: gray;
+}
+[href$=".com"] {
+  background: red;
+}
+
+section > h2 {
+  background: pink;
+}
+
+article {
+  background: lightseagreen;
+  padding: 10px;
+}
+
+p + p {
+  margin-bottom: 20px;
+}
